@@ -44,6 +44,7 @@
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
     "pinia": "^2.1.7",
-    "ress": "^5.0.2"
+    "ress": "^5.0.2",
+    "traq-bot-ts": "^1.2.1"
   }
 }

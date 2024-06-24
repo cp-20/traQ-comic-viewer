@@ -2,6 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   css: ['ress'],
   typescript: {
     typeCheck: true,
@@ -21,8 +22,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      Inter: [400, 500, 700],
-      'M+PLUS+1p': [400, 500, 700],
+      'Noto Sans JP': [400, 500, 700],
     },
     preload: true,
     download: false,
