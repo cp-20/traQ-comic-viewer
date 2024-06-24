@@ -12,7 +12,8 @@
     "format": "prettier --write --ignore-path .gitignore \"**/*.{js,ts,vue,json,md}\"",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --fix --ext .js,.ts,.vue --ignore-path .gitignore .",
-    "test": "npx nuxi test"
+    "test": "npx nuxi test",
+    "start": "node .output/server/index.mjs "
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
